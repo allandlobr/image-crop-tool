@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image crop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Image Crop</h1>
+    </header>
+
+    <main>
+        <button id="select-image">
+            <input type="file" id="photo-file">
+            Selecione a imagem
+        </button>
+
+        <img id="photo-preview" draggable="false">
+
+        <div id="selection-tool"></div>
+        <button id="crop-button">Cortar imagem</button>
+        <button id="download">Baixar imagem</button>
+    </main>
+
+    <footer></footer>
+
+    <script src="scripts.js" type="module"></script>
+
+</body>
+
+</html>
